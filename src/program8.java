@@ -16,5 +16,12 @@ public class program8 {
         }
         System.out.println("The sum of the matrix is "+s);
 
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(a[i][j] + "\t");
+            }
+            System.out.println();
+        }
+
     }
 }
