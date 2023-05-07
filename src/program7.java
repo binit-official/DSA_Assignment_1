@@ -14,8 +14,9 @@ public class program7 {
         int maxpo=-1;
         int minpo=-1;
         int maxc=0;
-        int minc=0;
-        for (int j : a) {
+        int minc=1;
+        for (int i = 0; i < a.length; i++) {
+            int j = a[i];
             if (j > max) {
                 max = j;
             } else if (j == max) {
